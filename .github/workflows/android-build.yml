@@ -23,11 +23,18 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v2
         
+      - name: Debug project
+        run: |
+          pwd
+          ls -la
+          cat settings.gradle
+          cat build.gradle | head -20
+        
       - name: Build debug APK
         run: |
-          export JAVA_HOME=$JAVA_HOME
           chmod +x gradlew
-          ./gradlew assembleDebug --stacktrace
+          ./gradlew tasks --all 2>&1 || true
+          ./gradlew assembleDebug --info 2>&1 | tail -100
         
       - name: Upload APK
         uses: actions/upload-artifact@v4
