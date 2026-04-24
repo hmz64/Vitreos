@@ -25,10 +25,9 @@ jobs:
         
       - name: Build debug APK
         run: |
-          ls -la
-          ls -la app/
           chmod +x gradlew
-          ./gradlew app:assembleDebug
+          ./gradlew tasks
+          ./gradlew assembleDebug
         
       - name: Upload APK
         uses: actions/upload-artifact@v4
