@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="vitreos_dark_bg">#0A0E1A</color>
+    <color name="vitreos_glass">#1A1F2E</color>
+    <color name="vitreos_accent">#6366F1</color>
+    <color name="vitreos_accent_secondary">#818CF8</color>
+    <color name="vitreos_text">#FFFFFF</color>
+    <color name="vitreos_text_secondary">#A0AEC0</color>
+    <color name="vitreos_success">#10B981</color>
+    <color name="vitreos_error">#EF4444</color>
+    <color name="vitreos_gradient_start">#1E1B4B</color>
+    <color name="vitreos_gradient_end">#0A0E1A</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

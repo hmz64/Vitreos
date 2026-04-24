@@ -1,0 +1,18 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color vitreos_accent
+color vitreos_accent_secondary
+color vitreos_dark_bg
+color vitreos_error
+color vitreos_glass
+color vitreos_gradient_end
+color vitreos_gradient_start
+color vitreos_success
+color vitreos_text
+color vitreos_text_secondary
+color white
+drawable ic_launcher_foreground
+mipmap ic_launcher
+string app_name
+style Theme.Vitreos
